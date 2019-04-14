@@ -1,0 +1,33 @@
+{
+  "name": "mvc-tours-express",
+  "version": "1.0.0",
+  "description": "Patron MVC con Mongodb, Express y Node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbandala/MVC-Tours-Express.git"
+  },
+  "keywords": [
+    "Mongodb",
+    "Express",
+    "NodeJs"
+  ],
+  "author": "Gabriel Bandala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbandala/MVC-Tours-Express/issues"
+  },
+  "homepage": "https://github.com/gbandala/MVC-Tours-Express#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1"
+  }
+}
