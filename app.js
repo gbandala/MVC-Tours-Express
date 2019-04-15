@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 //----------------------------------------------------------------------------------------
 //3.- Definir paths disponibles
-app.get('/', (req, res, next) => { res.send('Mongo Express.... Porfavor use /api/tours');});
+//app.get('/', (req, res, next) => { res.send('Mongo Express.... Porfavor use /api/tours');});
 app.get('/api/tours',TourController.inq);
 app.get('/api/tours/:id',TourController.inqById);
 app.get('/api/tours/names/:name',TourController.inqByName);
